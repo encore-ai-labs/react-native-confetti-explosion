@@ -1,12 +1,10 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-confetti-explosion';
-
-const result = multiply(3, 7);
+import { StyleSheet, View } from 'react-native';
+import { ConfettiExplosion } from 'react-native-confetti-explosion';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <ConfettiExplosion />
     </View>
   );
 }
@@ -14,7 +12,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });

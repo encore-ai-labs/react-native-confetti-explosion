@@ -15,17 +15,6 @@
   "files": [
     "src",
     "lib",
-    "android",
-    "ios",
-    "cpp",
-    "*.podspec",
-    "react-native.config.js",
-    "!ios/build",
-    "!android/build",
-    "!android/gradle",
-    "!android/gradlew",
-    "!android/gradlew.bat",
-    "!android/local.properties",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__",
@@ -79,12 +68,15 @@
     "react": "19.1.0",
     "react-native": "0.81.5",
     "react-native-builder-bob": "^0.40.17",
+    "react-native-reanimated": "^4.2.1",
     "release-it": "^19.0.4",
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-reanimated": ">=3.0.0",
+    "react-native-worklets": ">=0.5.0"
   },
   "workspaces": [
     "example"
