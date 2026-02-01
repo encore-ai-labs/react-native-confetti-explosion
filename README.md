@@ -2,6 +2,9 @@
 
 A lightweight, performant confetti explosion component for React Native. Pieces burst from a point with realistic drag, gravity, and rotation — all animated on the UI thread via [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/) worklets.
 
+## Demo from the [Candle](https://trycandle.app) app
+https://github.com/user-attachments/assets/3558c95a-7d80-4589-be6a-c988d97a4a54
+
 ## Features
 
 - Physics-based animation with drag, gravity, and rotation
