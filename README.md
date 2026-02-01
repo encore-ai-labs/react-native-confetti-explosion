@@ -14,6 +14,10 @@ A lightweight, performant confetti explosion component for React Native. Pieces 
 
 ```sh
 npm install react-native-confetti-explosion
+# or
+yarn add react-native-confetti-explosion
+# or
+bun add react-native-confetti-explosion
 ```
 
 ### Peer dependencies
@@ -22,6 +26,10 @@ This library requires the following peer dependencies:
 
 ```sh
 npm install react-native-reanimated react-native-worklets
+# or
+yarn add react-native-reanimated react-native-worklets
+# or
+bun add react-native-reanimated react-native-worklets
 ```
 
 Make sure the [Reanimated babel plugin](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/#step-2-add-reanimateds-babel-plugin) is configured in your `babel.config.js`:
